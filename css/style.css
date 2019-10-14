@@ -1,0 +1,114 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Arial ;
+}
+body{
+	background-image: url("../images/pinguins.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+.box-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height:100vh;
+}
+.card{
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	border-radius: 5px;
+	min-height: 550px;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+.intro-product{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.intro-image{
+	margin-right: 25px;
+	margin-bottom: 15px;
+}
+.heart{
+	position: fixed;
+}
+.fa-heart{
+	color: red;
+	position: relative;
+	top: 0;
+}
+.fa-star{
+	color: orange;
+	margin: 0 5px;
+}
+.intro-product{
+	margin: 15px 0;
+}
+.intro-product p{
+	margin: 10px 0;
+}
+.intro-text{
+	width:240px;
+}
+.intro-text .button{
+	background-color: green;
+	color: white;
+	padding: 10px 80px;
+	border-radius: 8px;
+}
+
+.intro-text p, .intro-text h4{
+	text-align: left;
+	margin: 14px 0;
+}
+.see-more{
+	color: blue;
+}
+.image-slide{
+	margin:10px 0;
+}
+.play-button{
+	position:fixed;
+	height:222px;
+	width:470px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.fa-play-circle{
+	color:green;
+	font-size: 3em;
+}
+.three-images{
+	display: flex;
+	margin: 15px 0;
+	height: 102px;
+}
+.images3{
+	margin: 0 5px;
+}
+.play-button-small{
+	position:fixed;
+	height:100px;
+	width:150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.border-orange{
+	border: 1px solid orange;
+}
+@media (min-width: 500px){
+	.box-container{
+		margin: 0 20px;
+	}
+}
